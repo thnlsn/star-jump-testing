@@ -24,13 +24,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/thnlsn/contact-manager.git"
+        "url": "git+https://github.com/thnlsn/star-jump.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/thnlsn/contact-manager/issues"
+        "url": "https://github.com/thnlsn/star-jump/issues"
     },
-    "homepage": "https://github.com/thnlsn/contact-manager#readme"
+    "homepage": "https://github.com/thnlsn/star-jump#readme"
 }
