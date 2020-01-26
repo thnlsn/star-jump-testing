@@ -12,6 +12,19 @@ border-left-color: yellow; */
     /* border-image-repeat: repeat; */
 }
 
+.stars {
+    color: #f8b739;
+}
+
+.small {
+    font-size: small;
+}
+
+.buffer {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -23,24 +36,23 @@ nav {
 }
 
 .title {
-  font-family: 'Amatic SC', cursive;
-  font-size:400%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 400%;
 }
 
 .title-link:hover {
-  color:white;
+    color: white;
 }
 
 .nav-links {
-  width:50%;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  font-size: 150%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 150%;
     margin-top: auto;
 }
-
 
 .back-arrow {
     background-image: url('https://pngimage.net/wp-content/uploads/2018/06/go-back-button-png.png');
@@ -53,35 +65,33 @@ nav {
 }
 
 .shape {
-  height: 13vh;
-  margin: 1rem;
-  position: relative;
+    height: 13vh;
+    margin: 1rem;
+    position: relative;
 }
 
 .shape-row {
-  margin-left:5%;
+    margin-left: 5%;
 }
 
 .color-row {
-  margin-left:2%;
+    margin-left: 2%;
 }
 
 .register-login {
-  background:#026db0;
-  border:1px solid white;
-  color:white;
-  text-decoration: none;
+    background: #026db0;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
 }
 
 .white {
-  color:white;
+    color: white;
 }
 
 .white:hover {
-  color:white;
+    color: white;
 }
-
-
 
 .shape-title {
     text-align: center;
@@ -129,39 +139,36 @@ nav {
     text-align: center;
     font-size: 60px;
     color: #f3f3f3;
-  }
-  
-  
-  .grid-container {
+}
+
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    padding: 10px;;
-  }
-  
-  .grid-container > div {
+    padding: 10px;
+}
+
+.grid-container > div {
     margin-top: 30px;
     text-align: center;
-  
-  
-  }
-  
-  .item1 {
+}
+
+.item1 {
     grid-column-start: 1;
     grid-column-end: 4;
     display: block;
     margin: auto;
-    width : 800px;
-    height : 500px;
+    width: 800px;
+    height: 500px;
     display: flex;
     justify-content: center;
     border-style: solid;
     border-width: 1rem;
     border-radius: 2rem;
     border-color: #acb9c0;
-  }
-  
-  .item2 {
+}
+
+.item2 {
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -169,20 +176,20 @@ nav {
     margin: auto;
     letter-spacing: 25px;
     font-size: 64px;
-  }
+}
 
-  .spin-title {
-    font-size:600%;
+.spin-title {
+    font-size: 600%;
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
-  }
-  
-  .planet-picture {
+}
+
+.planet-picture {
     object-fit: fill;
     margin: auto;
-  }
-  
-  .choice-button {
+}
+
+.choice-button {
     background-color: #acb9c0;
     color: black;
     font-size: 20px;
@@ -194,7 +201,7 @@ nav {
     display: inline-block;
     margin-left: 70px;
     margin-right: 70px;
-  }
+}
 
 .box9 > .color {
     text-align: center;
