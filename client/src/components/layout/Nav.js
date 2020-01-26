@@ -28,9 +28,11 @@ function Nav() {
                 {user && user.stars}
             </li>
             <li>
-                <a onClick={onLogout} href='#!'>
-                    <i className='fas fa-sign-out-alt white'></i>
-                    <span className='hide-sm white'> Logout</span>
+                <a className='hvr-icon-forward' onClick={onLogout} href='#!'>
+                    <i className='fas fa-sign-out-alt hvr-icon white'></i>
+                    <span className='hide-sm white hvr-underline-from-left ml-1'>
+                        Logout
+                    </span>
                 </a>
             </li>
         </Fragment>
@@ -39,12 +41,12 @@ function Nav() {
     const guestLinks = (
         <Fragment>
             <ul className='nav-links'>
-                <li>
+                <li className='hvr-underline-from-right hvr-rotate'>
                     <Link to='/register' className='white'>
                         Register
                     </Link>
                 </li>
-                <li>
+                <li className='hvr-underline-from-right hvr-rotate'>
                     <Link to='/login' className='white'>
                         Login
                     </Link>
@@ -61,7 +63,8 @@ function Nav() {
         <nav className='navbar'>
             <Link to='/' className='title-link'>
                 <h1 style={navStyle} className='title'>
-                    <i className='fas fa-star'></i> Star Jump
+                    <i className='fas fa-star spin'></i>
+                    <span className='hvr-underline-from-left'>Star Jump</span>
                 </h1>
             </Link>
             <ul className='nav-links'>

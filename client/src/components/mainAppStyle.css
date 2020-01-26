@@ -17,18 +17,6 @@ body {
     margin-top: 4%;
 }
 
-.iconMath {
-    background-image: url('https://library.kissclipart.com/20181112/aqe/kissclipart--16451bfd5bc98fb9.png');
-    width: 20vh;
-    height: 20vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    overflow: hidden;
-
-    border-radius: 20%;
-}
-
 .hoverText {
     font-family: 'Pangolin', cursive;
     font-size: 200%;
@@ -42,6 +30,18 @@ body {
 
 .gameWrapper:hover .hoverText {
     opacity: 1; /* completely visible. */
+}
+
+.iconMath {
+    background-image: url('https://library.kissclipart.com/20181112/aqe/kissclipart--16451bfd5bc98fb9.png');
+    width: 20vh;
+    height: 20vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+    border-radius: 20%;
 }
 
 .iconABC {
