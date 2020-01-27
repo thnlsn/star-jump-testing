@@ -23,7 +23,7 @@ function Nav() {
             {/* THIS IS FOR TESTING UPDATE STARS */}
             <li>Welcome {user && user.name}</li>
             <li>
-                <i className='far fa-star stars'></i>
+                <i className='fas fa-star stars'></i>
                 <span className='small'>x </span>
                 {user && user.stars}
             </li>
@@ -63,7 +63,11 @@ function Nav() {
         <nav className='navbar'>
             <Link to='/' className='title-link'>
                 <h1 style={navStyle} className='title'>
-                    <i className='fas fa-star spin'></i>
+                    <img
+                        className='spin'
+                        src='/images/starjump.png'
+                        alt='starjump'
+                    />
                     <span className='hvr-underline-from-left'>Star Jump</span>
                 </h1>
             </Link>

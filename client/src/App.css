@@ -18,13 +18,19 @@ border-left-color: yellow; */
     color: #f8b739;
 }
 
+.spin {
+    max-width: 7rem;
+    max-height: 7rem;
+    margin-right: 1rem;
+}
+
 a:hover,
 a:active {
     text-decoration: none;
 }
 
 .title .spin {
-    border-radius: 50%;
+    border-radius: 50;
     -webkit-transition: -webkit-transform 0.8s ease-in-out;
     transition: transform 0.8s ease-in-out;
 }
@@ -184,6 +190,7 @@ nav {
 .title {
     font-family: 'Amatic SC', cursive;
     font-size: 400%;
+    margin: 0;
 }
 
 .title-link:hover {
