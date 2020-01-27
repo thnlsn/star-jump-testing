@@ -44,7 +44,7 @@ const Login = props => {
     };
 
     return (
-        <div className='container w-50 p-3'>
+        <div className='container w-50 p-3 contain'>
             <h1 className='text-light font-weight-bold'>
                 Account
                 <span className='text-primary'> Login</span>

@@ -18,7 +18,7 @@ border-left-color: yellow; */
     color: #f8b739;
 }
 
-.spin {
+.logo {
     max-width: 7rem;
     max-height: 7rem;
     margin-right: 1rem;
@@ -34,7 +34,31 @@ a:active {
     -webkit-transition: -webkit-transform 0.8s ease-in-out;
     transition: transform 0.8s ease-in-out;
 }
+
 .title:hover .spin {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+/* Icon Spin */
+.hvr-icon-spin {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-icon-spin .hvr-icon {
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+.hvr-icon-spin:hover .hvr-icon,
+.hvr-icon-spin:focus .hvr-icon,
+.hvr-icon-spin:active .hvr-icon {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
@@ -140,6 +164,7 @@ a:active {
     transform: scale(1.1) rotate(4deg);
 }
 
+/* Forward */
 .hvr-icon-forward {
     display: inline-block;
     vertical-align: middle;
@@ -162,8 +187,8 @@ a:active {
 .hvr-icon-forward:hover .hvr-icon,
 .hvr-icon-forward:focus .hvr-icon,
 .hvr-icon-forward:active .hvr-icon {
-    -webkit-transform: translateX(4px);
-    transform: translateX(4px);
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
 }
 
 .small {
@@ -368,7 +393,9 @@ nav {
 /*Preload*/
 
 .contain {
-    background-color: (255, 255, 255, 0.034);
+    background-color: rgb(194, 90, 90);
+    margin-top: 2rem;
+    border-radius: 25px;
 }
 
 * {

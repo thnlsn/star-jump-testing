@@ -21,9 +21,9 @@ function Nav() {
         <Fragment>
             {/* <button onClick={put}></button>{' '} */}
             {/* THIS IS FOR TESTING UPDATE STARS */}
-            <li>Welcome {user && user.name}</li>
-            <li>
-                <i className='fas fa-star stars'></i>
+            <li>Hi, {user && user.name}!</li>
+            <li className='hvr-icon-spin'>
+                <i className='fas fa-star stars hvr-icon'></i>
                 <span className='small'>x </span>
                 {user && user.stars}
             </li>
@@ -40,18 +40,18 @@ function Nav() {
 
     const guestLinks = (
         <Fragment>
-            <ul className='nav-links'>
-                <li className='hvr-underline-from-right hvr-rotate'>
+            <div className='nav-links'>
+                <div className='hvr-underline-from-right hvr-rotate'>
                     <Link to='/register' className='white'>
                         Register
                     </Link>
-                </li>
-                <li className='hvr-underline-from-right hvr-rotate'>
+                </div>
+                <div className='hvr-underline-from-right hvr-rotate'>
                     <Link to='/login' className='white'>
                         Login
                     </Link>
-                </li>
-            </ul>
+                </div>
+            </div>
         </Fragment>
     ); // if there is a user, display the users star count
 
@@ -60,11 +60,11 @@ function Nav() {
     };
 
     return (
-        <nav className='navbar'>
+        <nav className='navbar d-flex flex-row'>
             <Link to='/' className='title-link'>
-                <h1 style={navStyle} className='title'>
+                <h1 style={navStyle} className='title hvr-icon-spin'>
                     <img
-                        className='spin'
+                        className='hvr-icon logo'
                         src='/images/starjump.png'
                         alt='starjump'
                     />
